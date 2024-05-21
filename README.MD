@@ -14,7 +14,11 @@ FortiAnalyser - User CSV Formater is a software meant to properly format FortiAn
 
 ## 💻 How to use?
 
-Download your FortiAnalyser Web Filter raw file (filtered for a single user) -> Place the raw log csv file in "csv\raw\" folder -> Execute the software -> Choose a language -> Input the client name and then Input the user name (these options are only used for the final file name, it doesn't interfere in the software functionality at all) -> Wait -> Your both formated csv files will be in the "csv\result\" folder
+1. Download your FortiAnalyser Web Filter raw file (filtered for a single user);
+2. Place the raw log csv file in "csv\raw\" folder;
+3. Execute the software;
+4. Choose a language;
+5. Input the client name and then Input the user name (these options are only used for the final file name, it doesn't interfere in the software functionality at all) -> Wait -> Your both formated csv files will be in the "csv\result\" folder
 
 ## 🌎 Available Languages
 
