@@ -1,0 +1,11 @@
+Date,Hour,Category,Direction,Destination country,Destination IP,Destination port,Event Type,Received Bytes,Sent Bytes,Source IP,Source port,URL,User
+3024-05-17,21:47:32,Fake Category,fake,Fakeland,123.456.789.012,12345,fake_event,999,999,987.654.321.012,99999,https://fake.url.com/,FAKE_USER
+2124-10-31,15:30:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,42,42,012.345.678.901,12345,https://fantasy.url.com/,FAKE_USER
+2124-10-30,15:35:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,42,42,012.345.678.901,12345,https://fantasy.url.com/,FAKE_USER
+2124-10-30,15:35:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,42,42,012.345.678.901,12345,https://fantasy.url.com/,FAKE_USER
+2124-09-30,15:45:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,42,42,012.345.678.901,12345,https://fantasy.url.com/somefile.txt,FAKE_USER
+2124-10-30,15:35:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,42,42,012.345.678.901,12345,https://fantasy.url.com/examplefile.png,FAKE_USER
+2124-10-30,15:35:45,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,846541112,444402,012.345.678.901,12345,https://fantasy.url.com/main.php,FAKE_USER
+2124-07-27,20:40:40,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,147344,444402,012.345.678.901,12345,https://mywebsite.url.com/login.php,FAKE_USER
+2124-10-24,10:17:09,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,846541112,444402,012.345.678.901,12345,https://fantasy.url.com/main.php,FAKE_USER
+2124-10-24,10:17:09,Fantasy Category,random,Nowhereland,789.012.345.678,54321,fantasy_event,8461112,444402,012.345.678.901,12345,https://random.url.com/main.php,FAKE_USER
