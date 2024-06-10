@@ -7,5 +7,6 @@
     "generating_text": "Generating, wait...",
     "most_accessed_websites_for_the_user": "Most accessed websites for user",
     "full_list": "FULL LIST",
-    "short_list": "SHORT LIST"
+    "short_list": "SHORT LIST",
+    "finished": "All CSVs successfully generated!"
   }

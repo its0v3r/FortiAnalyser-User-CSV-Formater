@@ -7,5 +7,6 @@
     "generating_text": "Gerando, aguarde...",
     "most_accessed_websites_for_the_user": "Websites mais acessados pelo usuário",
     "full_list": "LISTA COMPLETA",
-    "short_list": "RESUMO"
+    "short_list": "RESUMO",
+    "finished": "Todos os CSVs foram gerados com sucesso!"
   }

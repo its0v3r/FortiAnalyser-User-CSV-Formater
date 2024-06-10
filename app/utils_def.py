@@ -1,7 +1,7 @@
 # Function to print software title and it's version
 import os
 from urllib.parse import urlparse
-from data.data import SC
+from data.data import SC,DC
 
 
 def printSoftwareTitle():
@@ -34,5 +34,6 @@ def clearScreen():
 
 
 def printSuccessText():
+    print(f"{DC.lang_text["finished"]}")
     print(f"All CSVs successfully generated!")
     input("Press ENTER to exit...")
