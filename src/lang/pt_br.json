@@ -1,0 +1,12 @@
+{
+    "language": "Português Brasileiro",
+    "raw_file_path_warning": "Certifique que o arquivo bruto extraído do FAZ esteja em ./csv/raw/arquivo.csv",
+    "result_file_path_warning": "O resultado será salvo em ./csv/result/resultado.csv",
+    "insert_client_name": "Insira o nome do cliente: ",
+    "insert_user_name": "Insira o nome do usuário: ",
+    "generating_text": "Gerando, aguarde...",
+    "most_accessed_websites_for_the_user": "Websites mais acessados pelo usuário",
+    "full_list": "LISTA COMPLETA",
+    "short_list": "RESUMO",
+    "finished": "Todos os CSVs foram gerados com sucesso!"
+  }
