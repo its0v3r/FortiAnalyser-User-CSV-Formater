@@ -1,4 +1,4 @@
-# FortiAnalyser - User CSV Formater 1.0
+# FortiAnalyser - User CSV Formater 2.0
 
 [![Travis branch](https://img.shields.io/badge/made%20with-%3C3-red.svg)](https://github.com/its0v3r/FortiAnalyser-User-CSV-Formater)
 
@@ -14,7 +14,7 @@ FortiAnalyser - User CSV Formater is a software meant to properly format FortiAn
 
 ## 💻 How to use?
 
-1. Download your FortiAnalyser Web Filter raw file (filtered for a single user);
+1. Download your FortiAnalyser Web Filter raw file;
 2. Place the raw log csv file in "csv\raw\" folder;
 3. Execute the software;
 4. Choose a language;

@@ -3,125 +3,11 @@ import os
 
 # StaticConfig
 class SC:
-    VERSION = "1.0"
+    VERSION = "2.0"
     LANG_PATH = os.path.join(os.getcwd() + "\\lang\\")
     LANG_OPTIONS = os.listdir(LANG_PATH)
     CSV_RAW_PATH = os.path.join(os.getcwd() + "\\csv\\raw\\")
     CSV_RESULT_PATH = os.path.join(os.getcwd() + "\\csv\\result\\")
-    CSV_TEMP_PATH = os.path.join(os.getcwd() + "\\csv\\temp\\temp.csv")
-    COLUMN_NAMES = [
-        "itime",
-        "date",
-        "time",
-        "devid",
-        "vd",
-        "type",
-        "subtype",
-        "action",
-        "authserver",
-        "bid",
-        "cat",
-        "catdesc",
-        "craction",
-        "crlevel",
-        "crscore",
-        "devname",
-        "direction",
-        "dstcountry",
-        "dstepid",
-        "dsteuid",
-        "dstintf",
-        "dstintfrole",
-        "dstip",
-        "dstport",
-        "dstuuid",
-        "dvid",
-        "epid",
-        "euid",
-        "eventtime",
-        "eventtype",
-        "group",
-        "hostname",
-        "id",
-        "level",
-        "logid",
-        "logver",
-        "method",
-        "msg",
-        "policyid",
-        "policytype",
-        "poluuid",
-        "profile",
-        "proto",
-        "rcvdbyte",
-        "none1",
-        "reqtype",
-        "sentbyte",
-        "service",
-        "sessionid",
-        "srccountry",
-        "srcintf",
-        "srcintfrole",
-        "srcip",
-        "srcport",
-        "srcuuid",
-        "tz",
-        "url",
-        "urlfilteridx",
-        "urlfilterlist",
-        "none2",
-        "user",
-    ]
-
-    COLUMNS_TO_REMOVE = [
-        "itime",
-        "devid",
-        "vd",
-        "type",
-        "subtype",
-        "action",
-        "authserver",
-        "bid",
-        "cat",
-        "craction",
-        "crlevel",
-        "crscore",
-        "devname",
-        "dstepid",
-        "dsteuid",
-        "dstintf",
-        "dstintfrole",
-        "dstuuid",
-        "dvid",
-        "epid",
-        "euid",
-        "eventtime",
-        "group",
-        "hostname",
-        "id",
-        "level",
-        "logid",
-        "logver",
-        "method",
-        "msg",
-        "policyid",
-        "policytype",
-        "poluuid",
-        "profile",
-        "proto",
-        "none1",
-        "reqtype",
-        "service",
-        "sessionid",
-        "srccountry",
-        "srcintf",
-        "srcintfrole",
-        "srcuuid",
-        "tz",
-        "urlfilteridx",
-        "urlfilterlist",
-        "none2",
-    ]
     NEW_COLUMN_NAMES = {
         "date": "Date",
         "time": "Hour",
@@ -138,13 +24,27 @@ class SC:
         "url": "URL",
         "user": "User",
     }
+    COLUMNS_TO_EXTRACT = [
+        "date",
+        "time",
+        "catdesc",
+        "direction",
+        "dstcountry",
+        "dstip",
+        "dstport",
+        "eventtype",
+        "rcvdbyte",
+        "sentbyte",
+        "srcip",
+        "srcport",
+        "url",
+        "user",
+    ]
 
 
 # DynamicConfig
 class DC:
     lang_text = None
-    csv_file_path = ""
     client_name = ""
     user_name = ""
-    index = 0
     df = None
